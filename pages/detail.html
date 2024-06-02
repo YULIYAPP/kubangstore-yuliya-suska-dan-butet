@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../frontend/libraries/bootstrap/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800&family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../frontend/styles/main.css">
+    <link rel="stylesheet" href="../frontend/libraries/xzoom/xzoom.css">
+    
+    <title>Detail</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="../frontend/images/KUBANG STORE (2).png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Products</a>
+            </li>
+          </ul>
+          <!-- Desktop Menu -->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link mt-2" id="navbarDropdown" role="button" data-toggle="dropdown">
+                <img src="../frontend/images/icon_user.png" alt="icon user" class="rounded-circle mr-2 profile-picture">
+                Hi, dani
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link d-inline-block">
+                <img src="../frontend/images/ic_cart.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Page Content -->
+  <div class="page-content page-details">
+    <section class="bike-breadcrumbs">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="">Home</a>
+                </li>
+                <li class="breadcrumb-item active">
+                  Product Details
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bike-gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-10 col-md-8">
+            <div class="xzoom-container">
+              <img 
+                src="../frontend/images/WhatsApp Image 2024-05-28 at 06.17 1.png" 
+                class="xzoom w-100 main-image d-block" 
+                id="xzoom-default"
+                xoriginal="../frontend/images/product-details-1.png">
+            </div>
+          </div>
+          <div class="col-2 col-md-2">
+            <div class="xzoom-thumbs">
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 1.png" class="xzoom-gallery w-100" xpreview="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 1.png">
+              </a>
+              <a href="../frontend/images/product-details-2.png">
+                <img src="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 5 (1).png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 5 (1).png">
+              <a href="../frontend/images/product-details-1.png">
+                <img src="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 1.png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 1.png">
+              <a href="../frontend/images/product-details-2.png">
+                <img src="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 5 (1).png" class="xzoom-gallery w-100 mt-2" xpreview="../frontend/images/WhatsApp Image 2024-05-28 at 06.12 5 (1).png">
+              </a>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bike-heading mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1>About the case</h1>
+            <p>A Cellphone case is an accessory designed to protect yourdevice from scratches, dust and impacts. They are available in various materials such as plastic, silicone, and leather, as well as various designs and styles according to user preferences. Cases can also provide additional features such as card holders, stands, or even additional power via an integrated battery. It is important to choose a case that suits your phone model and brand to ensure optimal protection and comfort.</p>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bordered p-5">
+              <h5 class="booking-title">BOOKING CASE</h5>
+              <h2 class="booking-price">Rp200.000</h2>
+              <p class="mb-0 subtitle">Type</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="hard case">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus">
+                      <img src="../frontend/images/arrow.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p class="mb-0 subtitle">Quantity</p>
+              <div class="input-number">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text minus">
+                      -
+                    </div>
+                  </div>
+                  <input type="text" class="form-control" placeholder="30">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text plus">
+                      +
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="booking_page.html" class="btn btn-md btn-dark btn-block mt-5 btn-booking">Continue to Book</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- Akhir Page Content -->
+
+  <!-- Popular Products -->
+  <section class="popular-products">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="mb-5 mt-5">Popular Products</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-28 at 01.39 1.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              XIAOMI
+            </div>
+            <div class="products-price">
+              Rp.15.000
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-26 at 06 2.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              SAMSUNG
+            </div>
+            <div class="products-price">
+              Rp.12.000
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-27 at 23.58 2.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              POCO
+            </div>
+            <div class="products-price">
+              Rp.10.000
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-27 at 23.54 2.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              REDMI
+            </div>
+            <div class="products-price">
+              Rp.20.000
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-28 at 00.00 1 (1).png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              REALME
+            </div>
+            <div class="products-price">
+              Rp.20.000
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-28 at 00.01 1.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              ADVAN
+            </div>
+            <div class="products-price">
+              Rp.8.000
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-30 at 01.29 1.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              IPHONE
+            </div>
+            <div class="products-price">
+              Rp.25.000
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="/products.html" class="component-products d-block"> 
+            <div class="products-image mb-4">
+              <img src="../frontend/images/WhatsApp Image 2024-05-27 at 23.53 2.png" alt="" class="w-100">
+            </div>
+            <div class="products-text mb-2">
+              LENOVO
+            </div>
+            <div class="products-price">
+              Rp.10.000
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="testimonial">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <div class="testimonial-hero">
+            <img src="../frontend/images/f6c02320-533b-4bb8-884b-114ba9007d3e 1.png" alt="Testimonial" class="position-absolute testimonial-hero-image">
+            <img src="../frontend/images/testimonial-frame.png" alt="Testimonial" class="testimonial-frame">
+          </div>
+        </div>
+        <div class="colfa-rotate-180 col-md-4 ml-5">
+          <div class="stars align-items-center">
+            <img src="../frontend/images/stars.png" alt="">
+          </div>
+          <h2 class="testimonial-text">KUBANGSTORE "GOES TO INTERNASIONAL"</h2>
+          <p class="testimonial-name
+          "></p>
+          
+          <a href="#" class="btn btn-testimonial mt-5">
+            Read Story
+          </a>
+        </div>
+      </div>
+    </div><br><br><br>
+  </section>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h1 class="mt-5 text-uppercase">Kubangstore</h1>
+          <div class="d-flex flex-row">
+            <img src="../frontend/images/icon-ig.png">
+            <img src="../frontend/images/icon-fb.png"  class="ml-2">
+            <img src="../frontend/images/icon-youtube.png"  class="ml-3">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="footer-tag mt-5">
+            <h3>Address</h3>
+            <p>Jl. Kaharuddin Nasution No.03, <br>
+              Kecamatan Marpoyan Damai, Pekanbaru, Riau 28282 <br>0813-2456-897
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="pt-3">
+            2022 Copyright <a href="#">Kubangstore</a>. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+
+
+
+  <script src="../frontend/libraries/jquery-3.6.0.min.js"></script>
+  <script src="../frontend/libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="../frontend/libraries/xzoom/xzoom.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".xzoom, .xzoom-gallery").xzoom({
+        zoomWidth: 450,
+        title: false,
+        tint: "#333",
+        Xoffset: 20,
+      });
+    });
+  </script>
+</body>
+</html>
